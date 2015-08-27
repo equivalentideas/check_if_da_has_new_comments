@@ -9,4 +9,4 @@ agent = Mechanize.new
 # Read in a page
 page = agent.get("https://www.planningalerts.org.au/applications/552641")
 
-raise if page.at('#comments-area h4').text != "13 Comments"
+raise if page.at('#comments-area h4').text != "14 Comments"
